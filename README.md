@@ -1,2 +1,2 @@
-# myProjects
+# myProjs
 General studies Projects
