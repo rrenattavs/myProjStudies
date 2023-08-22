@@ -45,11 +45,12 @@ function App() {
         });
         resetTurn();
       } else {
-        console.log("Cards not match");
         resetTurn();
       }
     }
   }, [choiceOne, choiceTwo]);
+
+  console.log(cards);
 
   // reset choices and increase turn
   const resetTurn = () => {
@@ -63,7 +64,12 @@ function App() {
       <button onClick={shuffleCards}>New Game</button>
       <div className="card-grid">
         {cards.map((card) => (
-          <SingleCard key={card.id} card={card} handleChoice={handleChoice} />
+          <SingleCard
+            key={card.id}
+            card={card}
+            handleChoice={handleChoice}
+            flipped={card === choiceOne || card === choiceTwo || card.matched}
+          />
         ))}
       </div>
     </div>
