@@ -12,7 +12,7 @@ const About = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
         facilis voluptate omnis quisquam dolores veritatis esse placeat
         molestias quia adipisci quas amet nihil, ratione perferendis a molestiae
-        temporibus voluptatem ab.
+        temporibus volup.
       </p>
     </div>
   );
