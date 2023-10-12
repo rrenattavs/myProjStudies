@@ -8,6 +8,7 @@ const Contact = () => {
         aliquid sit dolor, exercitationem eius autem repellendus nulla sunt nemo
         corporis iste!
       </p>
+      <p>Update file</p>
     </div>
   );
 };
